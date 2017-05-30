@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 900;
+  src: local("Lesto Serif KR Black"),
+    url("LestoSerifKR-Black.woff2") format("woff2"),
+    url("LestoSerifKR-Black.woff") format("woff"),
+    url("LestoSerifKR-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 700;
+  src: local("Lesto Serif KR Bold"),
+    url("LestoSerifKR-Bold.woff2") format("woff2"),
+    url("LestoSerifKR-Bold.woff") format("woff"),
+    url("LestoSerifKR-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 600;
+  src: local("Lesto Serif KR SemiBold"),
+    url("LestoSerifKR-SemiBold.woff2") format("woff2"),
+    url("LestoSerifKR-SemiBold.woff") format("woff"),
+    url("LestoSerifKR-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 500;
+  src: local("Lesto Serif KR Medium"),
+    url("LestoSerifKR-Medium.woff2") format("woff2"),
+    url("LestoSerifKR-Medium.woff") format("woff"),
+    url("LestoSerifKR-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 400;
+  src: local("Lesto Serif KR Regular"),
+    url("LestoSerifKR-Regular.woff2") format("woff2"),
+    url("LestoSerifKR-Regular.woff") format("woff"),
+    url("LestoSerifKR-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 300;
+  src: local("Lesto Serif KR Light"),
+    url("LestoSerifKR-Light.woff2") format("woff2"),
+    url("LestoSerifKR-Light.woff") format("woff"),
+    url("LestoSerifKR-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Serif KR";
+  font-weight: 100;
+  src: local("Lesto Serif KR ExtraLight"),
+    url("LestoSerifKR-ExtraLight.woff2") format("woff2"),
+    url("LestoSerifKR-ExtraLight.woff") format("woff"),
+    url("LestoSerifKR-ExtraLight.ttf") format("truetype");
+}

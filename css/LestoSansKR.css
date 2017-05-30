@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 900;
+  src: local("Lesto Sans KR Black"),
+    url("LestoSansKR-Black.woff2") format("woff2"),
+    url("LestoSansKR-Black.woff") format("woff"),
+    url("LestoSansKR-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 700;
+  src: local("Lesto Sans KR Bold"),
+    url("LestoSansKR-Bold.woff2") format("woff2"),
+    url("LestoSansKR-Bold.woff") format("woff"),
+    url("LestoSansKR-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 500;
+  src: local("Lesto Sans KR Medium"),
+    url("LestoSansKR-Medium.woff2") format("woff2"),
+    url("LestoSansKR-Medium.woff") format("woff"),
+    url("LestoSansKR-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 400;
+  src: local("Lesto Sans KR Regular"),
+    url("LestoSansKR-Regular.woff2") format("woff2"),
+    url("LestoSansKR-Regular.woff") format("woff"),
+    url("LestoSansKR-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 300;
+  src: local("Lesto Sans KR DemiLight"),
+    url("LestoSansKR-DemiLight.woff2") format("woff2"),
+    url("LestoSansKR-DemiLight.woff") format("woff"),
+    url("LestoSansKR-DemiLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 200;
+  src: local("Lesto Sans KR Light"),
+    url("LestoSansKR-Light.woff2") format("woff2"),
+    url("LestoSansKR-Light.woff") format("woff"),
+    url("LestoSansKR-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesto Sans KR";
+  font-weight: 100;
+  src: local("Lesto Sans KR Thin"),
+    url("LestoSansKR-Thin.woff2") format("woff2"),
+    url("LestoSansKR-Thin.woff") format("woff"),
+    url("LestoSansKR-Thin.ttf") format("truetype");
+}

@@ -73,6 +73,9 @@ class Subsetter:
     string = name.toStr() + string
     self.font["name"].setName(string, nameID, platformID, platEncID, langID)
 
+  def set_name_direct(self, nameID, platformID, platEncID, langID, string):
+    self.font["name"].setName(string, nameID, platformID, platEncID, langID)
+
   ##############################################################################
 
   def drop_table(self, table_name):

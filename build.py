@@ -105,6 +105,17 @@ for statement in subset_config:
     subset.append_name(subsetter.PLATFORM["win"], subsetter.NAME[name], value)
     log_v("Name | {} += {}".format(name, value))
 
+  elif command == "set_name_direct":
+    assert_args(statement, 4, ["nameID", "platformID", "platEncID", "langID", "VALUE"])
+    nameID = int(statement[1])
+    platformID = int(statement[2])
+    platEncID = int(statement[3])
+    langID = int(statement[4])
+    value = statement[5]
+
+    subset.set_name_direct(nameID, platformID, platEncID, langID, value)
+    log_v("NameDirect | {}, {}, {}, {} = {}".format(nameID, platformID, platEncID, langID, value))
+
   elif command == "drop_table":
     assert_args(statement, 1, ["TABLE_NAME"])
     table = statement[1]

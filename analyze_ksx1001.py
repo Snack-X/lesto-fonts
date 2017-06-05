@@ -1,6 +1,6 @@
 from lesto import charset, unicode_block
 
-ksx1001 = charset.get_ksx1001()
+ksx1001 = charset.get_ksx1001_all()
 
 output = []
 for block_name, characters in ksx1001.items():

@@ -17,6 +17,10 @@ var fonts = {
     { name: "Light",      weight: 200 },
     { name: "ExtraLight", weight: 100 },
   ],
+  "D2Coding Light KR": [
+    { name: "Bold",      weight: 700 },
+    { name: "Regular",   weight: 400, default: true },
+  ],
 };
 
 window.addEventListener("load", function() {
